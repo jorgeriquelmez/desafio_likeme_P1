@@ -40,6 +40,31 @@ Este repositorio contiene una aplicación web Full Stack sencilla, desarrollada 
 
 El repositorio está dividido en dos partes principales:
 
+├── backend/  
+│ ├── config/  
+│ │ └── config.js  
+│ ├── controllers/  
+│ │ └── postController.js  
+│ ├── models/
+│ │ └── postModel.js  
+│ ├── routes/  
+│ │ └── postRoutes.js  
+│ ├── .env.example  
+│ ├── package.json  
+│ └── server.js  
+├── frontend/  
+│ ├── public/  
+│ ├── src/  
+│ │ ├── components/  
+│ │ ├── App.js  
+│ │ └── main.jsx  
+│ ├── .env.example  
+│ ├── package.json  
+│ └── index.html  
+├── .gitignore  
+├── package.json  
+└── README.md
+
 ## &#x1F6E0;&#xFE0F; Configuración y Ejecución
 
 Sigue estos pasos para poner la aplicación en marcha.
